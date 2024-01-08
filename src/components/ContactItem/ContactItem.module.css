@@ -1,0 +1,27 @@
+.list_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  height: auto;
+  padding-bottom: 15px;
+}
+
+.button_delete {
+  height: 30px;
+  width: 80px;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 1px 1px 3px 0px #000000;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.button_delete:hover,
+.button_delete:focus {
+  background-color: #087ea4;
+  color: azure;
+}

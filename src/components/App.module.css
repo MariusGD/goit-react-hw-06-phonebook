@@ -1,0 +1,28 @@
+.section {
+  width: 500px;
+  height: auto;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: yellowgreen;
+}
+
+.title {
+  font-size: large;
+  color: #390ba5;
+  padding-top: 10px;
+}
+
+.totalContacts {
+  font-size: medium;
+  color: red;
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+.contactsTitle {
+  font-size: x-large;
+  color: blue;
+  padding-top: 10px;
+}

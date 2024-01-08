@@ -1,0 +1,35 @@
+.form_wrapper {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  height: 30px;
+  border-radius: 3px;
+  font-size: 18px;
+  font-family: 'Lucida Sans', Verdana, sans-serif;
+}
+
+.button_add {
+  height: 35px;
+  margin-block: 20px;
+  border-radius: 3px;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  box-shadow: 1px 1px 3px 0px #000000;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+
+  &:hover,
+  &:focus {
+    background-color: #07850b;
+  }
+}
